@@ -1,6 +1,11 @@
 #Writen a pair of functions that cache the inverse of a matrix.
 
-## "makeCacheMatrix" fnction creates a special "matrix" object that can cache its inverse.
+## "makeCacheMatrix" fnction creates a special "matrix" object that can cache its inverse using a list of functions.
+## set: Stores the source matrix using "set" function
+## get: Returns the source matrix using "get" function
+## setInverse: Inverse matrix and caches it using "setInverse" function
+## getInverse: Returns inverse matrix from cache using "getInverse" function
+
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
